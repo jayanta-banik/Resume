@@ -1,12 +1,12 @@
 # Jayanta Banik
 
-**Machine Learning Engineer**  
+**Data Scientist / Machine Learning Engineer**  
 California, USA
 📧 jayanta.banik@example.com  
 🔗 LinkedIn: https://www.linkedin.com/in/jayanta-banik | GitHub: https://github.com/jayanta-banik
 
 ## Professional Summary
-Results-driven software engineer with experience in designing, building, and maintaining scalable web applications. Strong foundation in full-stack development, problem solving, and delivering reliable solutions in collaborative environments.
+Results-driven software engineer with experience in designing, building, and maintaining scalable web applications. Strong foundation in full-stack development, problem-solving, and delivering reliable solutions in collaborative environments.
 
 ## Technical Skills
 - **Languages:** JavaScript, TypeScript, Python, Java
