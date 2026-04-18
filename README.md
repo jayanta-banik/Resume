@@ -2,7 +2,7 @@
 
 **Software Engineer**  
 Kolkata, India  
-📧 jayanta.banik@example.com | 📞 +91-XXXXXXXXXX  
+📧 jayanta.banik@example.com  
 🔗 LinkedIn: https://www.linkedin.com/in/jayanta-banik | GitHub: https://github.com/jayanta-banik
 
 ## Professional Summary
@@ -40,7 +40,7 @@ Results-driven software engineer with experience in designing, building, and mai
 
 ## Education
 **Bachelor of Technology (B.Tech) in Computer Science and Engineering**  
-Institute Name, India | 2017 – 2021
+Maulana Abul Kalam Azad University of Technology, India | 2017 – 2021
 
 ## Certifications
 - Full-Stack Web Development Certification
