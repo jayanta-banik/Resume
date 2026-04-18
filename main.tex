@@ -1,0 +1,143 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.65in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{lmodern}
+\usepackage{xcolor}
+
+% Improve PDF text extraction for ATS
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{8pt}{4pt}
+
+\newcommand{\resumeSubheading}[4]{
+    \textbf{#1} \hfill #2 \\
+    #3 \hfill #4 \\
+}
+
+\newcommand{\resumeItem}[1]{
+    \item #1
+}
+
+\begin{document}
+
+{\LARGE \textbf{Jayanta Banik}}\\
+
+Email: \href{mailto:jbani004@ucr.edu}{jbani004@ucr.edu} \quad
+Phone: (760) 672-2203 \quad
+\href{https://www.linkedin.com/in/jayantabanik}{in/jayantabanik} \quad
+\href{https://github.com/jayanta-banik}{github/jayanta-banik} \quad
+\href{https://scholar.google.com/citations?user=t_7gaZQAAAAJ&hl=en}{Google Scholar}
+
+\section*{Professional Summary}
+Machine Learning Engineer and Data Scientist with experience in building NLP, Generative AI, signal processing, and remote sensing solutions across healthcare, research, and applied machine learning environments. Published researcher with peer-reviewed work in AI, robotics, sensing, and bio-signal applications. Hands-on experience in Python, SQL, PyTorch, TensorFlow, Flask, AWS, MLOps, model deployment, data pipelines, retrieval-augmented generation (RAG), knowledge graphs, and dashboard development. Interested in Machine Learning Engineer, AI Engineer, Applied Scientist, and Data Scientist roles.
+
+\section*{Core Skills}
+\textbf{Programming:} Python, SQL, Java, C/C++, MATLAB, Octave, NodeJs, ReactJS \\
+\textbf{Machine Learning / AI:} Machine Learning, Deep Learning, NLP, Generative AI, LLM Applications, Retrieval-Augmented Generation (RAG), Knowledge Graphs, Topic Modeling, Summarization, Classification, Time Series Modeling, Active Learning, Computer Vision \\
+\textbf{Frameworks / Libraries:} PyTorch, TensorFlow, Scikit-learn, Flask, TensorFlow.js, TensorFlow Lite \\
+\textbf{MLOps / Data / Cloud:} MLOps, Model Deployment, AWS, Azure, Data Pipelines, Microservices, API Development, EDA, Data Visualization, LLMOps, Pretraining, Fine-Tuning, OpenAI, Anthropic, Gemma, RoBerta, BERT, BART \\
+\textbf{Domain Areas:} Clinical NLP, Healthcare Analytics, Biosignal Processing, Remote Sensing, Robotics, Spatial Data
+
+\section*{Professional Experience}
+
+\resumeSubheading
+{Aidar Health Inc.}{Jan 2025 -- Present}
+{Data Scientist}{Columbia, MD}
+\begin{itemize}[leftmargin=*, itemsep=2pt, topsep=2pt]
+    \resumeItem{Built NLP and Generative AI pipelines for clinical note analysis, including exploratory data analysis, topic modeling, and summarization, processing approximately 1,500 notes per day.}
+    \resumeItem{Developed analytics dashboards for operations teams, improving workflow efficiency by 15\% and reducing wait time by 12 hours.}
+    \resumeItem{Developed machine learning models to detect medication non-adherence, missed doses, falls, and high-risk vital signs, supporting earlier intervention and reducing preventable hospitalizations.}
+    \resumeItem{Built a low-latency RAG and knowledge graph system that surfaced real-time action recommendations for nurses, reducing care response latency by 30\% and turnaround time by 15 hours.}
+    \resumeItem{Led redesign of a real-time signal processing engine, improving performance by approximately 15x.}
+\end{itemize}
+
+\resumeSubheading
+{University of California, Riverside}{Sep 2023 -- Dec 2024}
+{Graduate Student Researcher}{Riverside, CA}
+\begin{itemize}[leftmargin=*, itemsep=2pt, topsep=2pt]
+    \resumeItem{Created a novel Sensor Directed Sampling algorithm for high-performance sub-sampling using experimental design and response surface methods.}
+    \resumeItem{Designed an active learning algorithm for multi-sensor data fusion in remote sensing platforms.}
+    \resumeItem{Worked on spatial data analysis, sensor-driven sampling, and field-scale optimization problems for agricultural sensing applications.}
+\end{itemize}
+
+\resumeSubheading
+{USDA ARS US Salinity Laboratory, University of California, Riverside}{Oct 2022 -- Dec 2023}
+{Machine Learning Developer Co-op}{Riverside, CA}
+\begin{itemize}[leftmargin=*, itemsep=2pt, topsep=2pt]
+    \resumeItem{Modernized a legacy monolithic ML application into Flask-based microservices to improve maintainability and scalability.}
+    \resumeItem{Integrated machine learning models into production-oriented workflows and contributed to MLOps practices for deployment and maintenance.}
+    \resumeItem{Designed and conducted 10+ field experiments focused on sub-sampling, sensor correlation, and field data integration.}
+    \resumeItem{Built a predictive model to infer multi-sensor readings from a single sensor, reducing hardware costs by \$30K.}
+\end{itemize}
+
+\resumeSubheading
+{El Systems}{Jun 2019 -- Jul 2019}
+{Data Science Intern}{Varanasi, India}
+\begin{itemize}[leftmargin=*, itemsep=2pt, topsep=2pt]
+    \resumeItem{Built a CNN-based face recognition system for attendance tracking, saving 78 hours per quarter.}
+    \resumeItem{Developed a spam filtering pipeline using Bag-of-Words and NLP methods.}
+    \resumeItem{Built a Transformer-based chatbot trained on the Friends dialogue corpus.}
+\end{itemize}
+
+\section*{Selected Projects}
+
+\textbf{LSTM GPS Correction and ArcGIS Integration} \hfill Jan 2024 -- May 2024 \\
+Developed an LSTM-based model to predict and correct GPS signal drift and integrated outputs with ArcGIS for improved spatial visualization and mapping accuracy.
+
+\vspace{4pt}
+\textbf{Isolated Sign Language Recognition} \hfill May 2023 -- Jul 2023 \\
+Built a hybrid CNN-LSTM-BERT pipeline for isolated sign language recognition, translating hand gestures into structured language sequences.
+
+\vspace{4pt}
+\textbf{FAMNet} \hfill Jan 2023 -- Mar 2023 \\
+Designed a multi-model architecture that used BERT for task inference and a T5-based generation backbone for context-aware output generation in compact LLM workflows.
+
+\vspace{4pt}
+\textbf{Higgs Boson Signal Process Classification} \hfill Sep 2022 -- Dec 2022 \\
+Applied neural network methods to Monte Carlo simulation data from the Large Hadron Collider to classify signal versus background processes.
+
+\vspace{4pt}
+\textbf{Emotional AI} \hfill Sep 2022 -- Dec 2022 \\
+Built a BERT-based multi-label emotion classifier with a BART-based generator for contextual emotion understanding and affective text generation.
+
+\section*{Education}
+
+\resumeSubheading
+{University of California, Riverside}{2022 -- 2024}
+{Master of Science, Computer Engineering}{GPA: 3.74/4.00}
+
+\resumeSubheading
+{West Bengal University of Technology}{2017 -- 2021}
+{Bachelor of Technology, Computer Science Engineering}{GPA: 8.35/10.00}
+
+\section*{Publications}
+\begin{itemize}[leftmargin=*, itemsep=2pt, topsep=2pt]
+    \resumeItem{Near-ground microwave radiometry for on-the-go surface soil moisture sensing in micro-irrigated orchards in California. \textit{Agrosystems, Geosciences \& Environment}, 2025.}
+    \resumeItem{Field deployment of an agricultural robot for informed sampling of soil apparent electrical conductivity using aisle graphs. \textit{Precision Agriculture '25}, 2025.}
+    \resumeItem{Sensor Directed Sampling. Master's Thesis, University of California, Riverside, 2024.}
+    \resumeItem{Innovative Data Integration for On-the-Go Plant and Soil Sensing: The Short Vectorization Approach. ASA, CSSA, SSSA International Annual Meeting, 2023.}
+    \resumeItem{Study of Dependency on Number of LSTM Units for Character-Based Text Generation Models. IEEE ICCSEA, 2020.}
+\end{itemize}
+
+\section*{Certifications}
+\begin{itemize}[leftmargin=*, itemsep=2pt, topsep=2pt]
+    \resumeItem{Google TensorFlow Developer License}
+    \resumeItem{Machine Learning Specialization, DeepLearning.AI / Stanford}
+    \resumeItem{Deep Learning Specialization, DeepLearning.AI}
+    \resumeItem{Genomic Data Science Specialization, Johns Hopkins University}
+\end{itemize}
+
+\section*{Additional Information}
+\textbf{Research Interests:} NLP, Generative AI, Biomedical AI, Physics-Informed Machine Learning, Agentic AI \\
+\textbf{Leadership / Mentoring:} International Student Peer Mentor, workshop instructor for Python and machine learning topics, community outreach in AI literacy
+\end{document}
