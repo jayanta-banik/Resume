@@ -38,6 +38,18 @@ Results-driven software engineer with experience in designing, building, and mai
 - Designed and implemented a RESTful API with authentication and role-based access.
 - Added request validation and structured error handling.
 
+## Repository Highlights
+My GitHub work spans developer tooling, algorithm visualization, hardware experiments, and a strong cluster of AI/ML-focused repositories. The AI/ML projects stand out for their focus on model deployment, NLP, generative AI, and research-oriented sampling workflows.
+
+- **MLBots** *(AI/ML)* — Deployment-focused project for serving multiple machine learning models from one setup.
+- **stopMotionAI** *(AI/ML)* — Generative AI project aimed at creating stop-motion style film outputs.
+- **TextSummarization** *(AI/ML)* — Final-year NLP project centered on automatic text summarization.
+- **Sensor-Directed-Sampling** *(AI/ML / Research)* — Python notebook implementation of ESAP RSSD for sensor/data-directed sampling.
+- **MLserver** *(AI/ML Infrastructure)* — Raspberry Pi-based machine learning server deployment.
+- **IProgress** — Lightweight Python utility library for flexible progress reporting in IPython environments.
+- **Visualization-of-Sorting-Algorithms** — Notebook-based visual explanations of sorting algorithms using real-time graph output.
+- **Graph** — Python helper library for building and testing graph-based algorithms.
+
 ## Education
 **Bachelor of Technology (B.Tech) in Computer Science and Engineering**  
 Maulana Abul Kalam Azad University of Technology, India | 2017 – 2021
